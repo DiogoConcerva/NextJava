@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-public class SomaSimples_1003 {
+public class ExtremamenteBásico_1001 {
     public static void main(String[] args) {
         int a, b, soma;
-
         Scanner entrada = new Scanner(System.in);
 
         System.out.print("Informe o primeiro valor: ");
@@ -12,8 +11,7 @@ public class SomaSimples_1003 {
         b = entrada.nextInt();
         soma = a + b;
 
-        System.out.println("SOMA = " + soma );
-
+        System.out.println("X = " + soma);
         entrada.close();
     }
 }
