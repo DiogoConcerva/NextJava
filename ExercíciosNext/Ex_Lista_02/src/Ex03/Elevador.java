@@ -97,7 +97,7 @@ public class Elevador {
     @Override
     public String toString() {
         return "Informações do elevador:\n" +
-                "Andar atual............: " + andarAtual + "º andar" +
+                "Andar atual..............: " + andarAtual + "º andar" +
                 "\nTotal de andares.......: " + andares + " andares" +
                 "\nQuantidade de pessoas..: " + quantidadePresente + " pessoa(s) presente(s)" +
                 "\nCapacidade máxima......: " + capacidade + " pessoas";
